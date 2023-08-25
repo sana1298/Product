@@ -22,7 +22,7 @@ const ProductList = () => {
           height: 'auto',
         }}/>
             <h3>{product.title}</h3>
-            <p>${product.price}</p>
+            <h4>${product.price}</h4>
             <Link to={`/products/${product.id}`}>Details</Link>
           </div>
         ))}
