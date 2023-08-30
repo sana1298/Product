@@ -1,4 +1,7 @@
-
+.home{
+  margin-left: 470px;
+  margin-top: 200px;
+}
 .navbar {
     background-color:paleturquoise;
     color: white;
@@ -22,4 +25,16 @@
     gap: 20px;
    margin-top: 10px;
   }
+
+.cart-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px;
+ margin-top: 10px;
+}
+.cart{
+  border: 2px solid rgb(9, 10, 9);
+  padding: 20px;
+  border-radius:50px ;
+}
   
